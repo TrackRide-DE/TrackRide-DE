@@ -4,23 +4,28 @@
   <style>
     body {
       background-color: #2D2929;
+      text-align: center; /* Hinzugefügt, um den Text zu zentrieren */
     }
-    .logo { 
+   .logo { 
       font-size: 48px;
       font-weight: bold;
-      color: #E5484C;
     }
-    .logo span { 
+   .logo span { 
       color: #FFFFFF;
     }
-    .cooming-soon {
+   .logo.red { /* Neue Klasse für roten Text */
+      color: #E5484C;
+    }
+   .cooming-soon {
       font-size: 24px;
       color: #FFFFFF;
     }
   </style>
 </head>
 <body>
-  <h1 class="logo">T<span>rack</span>Ride</h1>
-  <p class="cooming-soon">coming soon...</p>
+  <h1 class="logo" style="text-align: center;"> <!-- Hinzugefügt, um den Text zu zentrieren -->
+    <span class="red">T</span><span class="red">R</span>ack<span class="red">R</span>ide
+  </h1>
+  <p class="cooming-soon">Coming soon...</p>
 </body>
 </html>
