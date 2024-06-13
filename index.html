@@ -5,26 +5,31 @@
     body {
       background-color: #2D2929;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
     }
-    .logo { 
+  .logo { 
       font-size: 48px;
       font-weight: bold;
+      margin-bottom: 20px; /* Abstand zwischen Logo und Coming Soon */
     }
-    .logo span.red { 
+  .logo span.red { 
       color: #E5484C;
     }
-    .cooming-soon {
+  .logo span.white { 
+      color: #FFFFFF;
+    }
+  .cooming-soon {
       font-size: 24px;
       color: #FFFFFF;
     }
   </style>
 </head>
 <body>
-  <h1 class="logo"><span class="red">T</span>rack<span class="red">R</span>ide</h1>
-  <p class="cooming-soon">Coming soon...</p>
+  <h1 class="logo"><span class="red">T</span><span class="white">rack</span><span class="red">R</span><span class="white">ide</span></h1>
+  <p class="cooming-soon" style="margin-top: -20px;">coming soon...</p>
 </body>
 </html>
