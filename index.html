@@ -4,13 +4,17 @@
   <style>
     body {
       background-color: #2D2929;
-      text-align: center; /* Hinzugefügt, um den Text zu zentrieren */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
     }
     .logo { 
       font-size: 48px;
       font-weight: bold;
     }
-    .logo span.red { /* Neue Klasse für roten Text */
+    .logo span.red { 
       color: #E5484C;
     }
     .cooming-soon {
@@ -20,9 +24,7 @@
   </style>
 </head>
 <body>
-  <h1 class="logo" style="text-align: center;"> 
-    <span class="red">T</span>rack<span class="red">R</span>ide
-  </h1>
+  <h1 class="logo"><span class="red">T</span>rack<span class="red">R</span>ide</h1>
   <p class="cooming-soon">Coming soon...</p>
 </body>
 </html>
